@@ -6,8 +6,8 @@ import Home from './Home';
 import Service from './Service';
 import About from './About.';
 import Contact from './Contact';
-import Error from './ErrorPage'
-import { Route, Switch } from 'react-router';
+// import Error from './ErrorPage'
+import { Redirect, Route, Switch } from 'react-router';
 
 const App=()=> {
   return (< >
@@ -18,7 +18,7 @@ const App=()=> {
       <Route exact path='/about' component={ About }/>
       <Route exact path='/service' component={ Service }/>
       <Route exact path='/contact' component={ Contact }/>
-      <Route  component={ Error }/>
+      <Redirect to='/'/>
     </Switch>
   </ >);
 }
