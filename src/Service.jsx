@@ -33,7 +33,7 @@ const Service = () => {
                                 buttonStyle={value.buttonStyle}
                                 
                             />
-                        })};
+                        })}
             </div>
             </div>
             </div>    
