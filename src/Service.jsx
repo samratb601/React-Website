@@ -32,7 +32,7 @@ const Service = () => {
                                 cardTxtColor={value.cardtxtColor}
                                 buttonStyle={value.buttonStyle}
                                 
-                            />;
+                            />
                         })};
             </div>
             </div>
