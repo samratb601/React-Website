@@ -10,7 +10,7 @@ const Home = () => {
             page={'Home'}
             pageInfo={'Lorem ipsum dolor sit amet consectetur adipisicing elit. A vel unde dignissimos! '}
             buttonTxt={'Get Started'}
-            link={"./service"}
+            link={"#about"}
             imgSrc={HomeSvg}
         />
         )

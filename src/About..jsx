@@ -9,6 +9,7 @@ import AboutSvg from './images/undraw_Online_page_re_lhgx.svg';
 const About = () => {
     return (< >
         <Common
+        
         page={'About'}
         pageInfo={'Lorem ipsum dolor sit amet consectetur adipisicing elit. A vel unde dignissimos!'}
         buttonTxt={'Contact Now'}

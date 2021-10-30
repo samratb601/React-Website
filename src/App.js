@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import Navbar from './components/Navbar';
 // import Footer from './components/Footer';
 import Home from './Home';
@@ -20,6 +20,7 @@ const App=()=> {
       <Route exact path='/contact' component={ Contact }/>
       <Redirect to='/'/>
     </Switch>
+    {/* <Footer/> */}
   </ >);
 }
 
