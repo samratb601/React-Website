@@ -50,17 +50,17 @@ const OurServices = [
         title: 'app development',
         text:'IOS or Android mobile app development, we create excellent tailor-made solutions that run smoothly on all types of devices.',
         color: {
-            color: '#40FFA2',
+            color: '#52bf90',
         },
         cardtxtColor:{
-            color:"#3a8360"
+            color:"#52bf90"
         },
         backgroundColor: {
-            backgroundColor:"#40FFA220",
+            backgroundColor:"#52bf9020",
         },
         buttonStyle:{
-            color: "#40FFA2",
-            border: "2px solid #40FFA2",
+            color: "#52bf90",
+            border: "2px solid #52bf90",
         }
     },
     {
