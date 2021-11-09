@@ -26,12 +26,15 @@ const Contact = () => {
             return {...previousValue,[name]:value,}
         });
 
-        console.log(name+':'+value);
     }
     const submitEvent = (event) => {
         event.preventDefault();
         alert(`${data.name},${data.email},${data.mobile},${data.message}`);
-        setData(' ')
+        setData({
+        name: '',
+        email: '',
+        mobile: '',
+        message: '',})
     }
 
     return(
@@ -45,7 +48,7 @@ const Contact = () => {
         <div className="d-flex flex-column justify-content-center  col col-lg-6 col-md-6 col-sm-12 pt-4 pt-lg-0 mt-sm-3">   
         <div className="col-12">
         <div className="row ">
-                            <h1 className="text-center font_color">Contact Us</h1>
+                            <h1 className="text-center mb-3 font_color">Contact Us</h1>
                             
                     <form className="" onSubmit={submitEvent} >
                                 
@@ -69,7 +72,7 @@ const Contact = () => {
                     <textarea className="form-control" value={data.message} name="message" onChange={inputEvent} placeholder="Send a Message" aria-label="With textarea"></textarea>
                     </div>
                     <div className=" d-flex justify-content-center">     
-                    <button className="link_button mt-3 px-5" type="submit">Submit</button>
+                    <button className="link_button mt-4 px-5" type="submit">Submit</button>
                     </div>
                     </form>
                               

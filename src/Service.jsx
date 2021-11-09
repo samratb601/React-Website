@@ -8,10 +8,10 @@ import OurServices from "./OurServices";
 
 const Service = () => {
     return (<div className="container-fluid pt-4"><div className="row"><div className="col-10 mx-auto my-4 ">
-        
-        <h1 className="text-center mt-3 fw-bolder mb-5 px-5" >Nurture Your Business With #XYZ</h1>
-        <h6 className="text-center mt-3  mb-3 px-5" style={{lineHeight:'30px'}}>We have a team of skilful designers, developers, and digital marketers who render quality services to our clients with extreme dedication.</h6>
-        
+        <div className="px-0 mx-0 px-md-5 mx-md-5 d-flex flex-column align-content-center justify-content-center">
+        <h1 className="text-center mt-3  mb-5 " >Nurture Your Business With #XYZ</h1>
+        <h6 className="text-center my-3" style={{lineHeight:'30px'}}>We have a team of skilful designers, developers, and digital marketers who render quality services to our clients with extreme dedication.</h6>
+        </div>
         <div className="d-flex flex-column ">
 
         <div className="col-lg-4 col-md-6 col-sm-12 mx-auto mb-sm-5" id="home_img_div">
