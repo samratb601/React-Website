@@ -10,9 +10,9 @@ return(
         <div className="row ">
 
         <div className="d-flex flex-column justify-content-center text-center text-lg-start text-md-start col-md-6 col-sm-12 pt-4 pt-lg-0 mx-sm-auto order-lg-0 order-md-0 order-1 ">
-            <h1 className="ms-0">Welcome to <span className="fw-bold text-success"> {props.page} </span> Page</h1>
-            <h2 className="h6 my-3">{props.pageInfo}</h2>
-            <div className="my-3 mx-auto mx-lg-0 mx-md-0 ">
+            <h1 className="ms-0"> {props.page} </h1>
+            <h2 className="h6 my-3 pt-lg-3 pt-1 fw-normal" style={{lineHeight:'30px'}}>{props.pageInfo}</h2>
+            <div className="my-3 mx-auto mx-lg-0 mx-md-0 my-2 my-lg-3">
                 <NavLink className="link_button " to={props.link}>{props.buttonTxt}</NavLink>
             </div>
         </div>

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500&family=Mulish:wght@700&display=swap');
+
 .App {
   text-align: center;
 }
@@ -36,10 +39,13 @@
     transform: rotate(360deg);
   }
 }
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500&family=Mulish:wght@700&display=swap');
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+  font-size: 35rem;
+  font-weight: 800!important;
+  
 }
 
 .font_color{
@@ -81,6 +87,9 @@
     font-weight: 600!important;
     color: rgb(50, 221, 141)!important;
 }
+#navbar-brand:hover{
+  color:rgb(50, 221, 141)!important ;
+}
 .servicepage_button{
             /* padding: 10px 20px; */
             letter-spacing: 2px;
@@ -93,7 +102,9 @@
             transition: 0.4s;
 }
 .servicepage_button:hover{
-    background-color: rgba(22, 21, 21,.1);
+
+    transform: translateY(-2px);
+
 }
 
 .link_button{
@@ -168,15 +179,16 @@
   }
   .social_icons:hover{
     transform: scale(1.1);
-    background-color:rgb(46, 226, 139) ;
+    
     border: none;
-    color: white;
+
 
   }
 .footer {
     /* background: linear-gradient(to right ,#7E57C2, #5CE1E1, #FF725E, #40FFA2); */
-    position: sticky;
     width: 100%;
+    padding:  5rem;
+    margin-top:5rem ;
     bottom: 0;
     font-size: 13px;
     letter-spacing: 2px;

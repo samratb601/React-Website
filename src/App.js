@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.scss';
 import Navbar from './components/Navbar';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import Home from './Home';
 import Service from './Service';
 import About from './About.';
@@ -20,7 +20,7 @@ const App=()=> {
       <Route exact path='/contact' component={ Contact }/>
       <Redirect to='/'/>
     </Switch>
-    {/* <Footer/> */}
+    <Footer/>
   </ >);
 }
 
