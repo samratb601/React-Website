@@ -17,24 +17,29 @@ const About = () => {
         link={"./contact"}
         imgSrc={AboutSvg}
         />
-            <div className="container-fluid pt-5"><div className="row"><div className="col col-10 mx-auto my-4">
-            <hr/>
+        <div className="container-fluid pt-2"><div className="row">
+            <div className=" col-8 mx-auto">
+            
+            
             <div className="row ">
 
                 <AboutpageCard
                 title="7500+"
                 text="PROJECT EXECUTED"
                 color="#7E57C2"
+                bgcolor="#7E57C220"
                 />
                 <AboutpageCard
                 title="1500+"
                 text="CLIENT WORLDWIDE"
                 color="#5CE1E1"
+                bgcolor="#5CE1E120"
                 />
                 <AboutpageCard
                 title="300+"
                 text="IT PROFESSIONALS"
                 color="#FF725E"
+                bgcolor="#FF725E20"
                 />
 
             </div>

@@ -8,8 +8,9 @@ import YouTube from '@material-ui/icons/YouTube';
 
 const Footer = () => {
     let currentYear = new Date().getFullYear();
-    return (<div className="d-flex align-content-center justify-content-center">
+    return (<div className="d-flex align-content-center justify-content-center ">
         <div className="footer text-center  col-10" id="footer">
+        <hr className="mb-5"/>
             <p className=""> © Copyright {currentYear} . All Rights Reserved
                 <span className="font_color">Privacy Policy</span> | <span className="font_color">Terms & Conditions</span>
             </p>
@@ -20,6 +21,7 @@ const Footer = () => {
                 <Instagram className="mx-2 mx-md-3 social_icons" />
                 <Twitter className="mx-2 mx-md-3 social_icons" />
             </div>
+            
     </div></div>)
 }
 

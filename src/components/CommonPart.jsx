@@ -21,8 +21,10 @@ return(
             <img className="img-fluid" id="home_img" src={ props.imgSrc } alt="Home img"/>
         </div>
             
-        </div>        
-    </div></div></div>);
+        </div>
+        <hr className="mb-5"/>
+    </div>
+    </div></div>);
 
 }
 export default Common;
