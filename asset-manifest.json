@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/React-Website/static/css/main.9b98463e.chunk.css",
-    "main.js": "/React-Website/static/js/main.5391ddae.chunk.js",
-    "main.js.map": "/React-Website/static/js/main.5391ddae.chunk.js.map",
+    "main.css": "/React-Website/static/css/main.d099b624.chunk.css",
+    "main.js": "/React-Website/static/js/main.21ec6d81.chunk.js",
+    "main.js.map": "/React-Website/static/js/main.21ec6d81.chunk.js.map",
     "runtime-main.js": "/React-Website/static/js/runtime-main.b6534250.js",
     "runtime-main.js.map": "/React-Website/static/js/runtime-main.b6534250.js.map",
     "static/css/2.0a9ec390.chunk.css": "/React-Website/static/css/2.0a9ec390.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.54924dec.chunk.js.map": "/React-Website/static/js/2.54924dec.chunk.js.map",
     "index.html": "/React-Website/index.html",
     "static/css/2.0a9ec390.chunk.css.map": "/React-Website/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.9b98463e.chunk.css.map": "/React-Website/static/css/main.9b98463e.chunk.css.map",
+    "static/css/main.d099b624.chunk.css.map": "/React-Website/static/css/main.d099b624.chunk.css.map",
     "static/js/2.54924dec.chunk.js.LICENSE.txt": "/React-Website/static/js/2.54924dec.chunk.js.LICENSE.txt",
     "static/media/App development-rafiki.79045cb0.svg": "/React-Website/static/media/App development-rafiki.79045cb0.svg",
     "static/media/Marketing-pana.5832070b.svg": "/React-Website/static/media/Marketing-pana.5832070b.svg",
@@ -25,7 +25,7 @@
     "static/js/runtime-main.b6534250.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.54924dec.chunk.js",
-    "static/css/main.9b98463e.chunk.css",
-    "static/js/main.5391ddae.chunk.js"
+    "static/css/main.d099b624.chunk.css",
+    "static/js/main.21ec6d81.chunk.js"
   ]
 }
