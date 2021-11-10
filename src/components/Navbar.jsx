@@ -14,18 +14,18 @@ const Navbar = () => {
                         <MenuOpenOutlinedIcon/>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li className="nav-item">
-                            <NavLink exact activeClassName="active_link"  className="nav-link d-inline-block  "  to="/">Home</NavLink>
+                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+                                <li className="nav-item">
+                            <NavLink exact activeClassName="active_link"  className="nav-link d-inline-block mb-2 mb-md-0 mb-lg-0 "  to="/">Home</NavLink>
                                 </li>
                                 <li className="nav-item">
-                            <NavLink  activeClassName="active_link" className="nav-link d-inline-block  "  to="/about">About</NavLink>
+                            <NavLink  activeClassName="active_link" className="nav-link d-inline-block mb-2 mb-md-0 mb-lg-0 "  to="/about">About</NavLink>
                                 </li>
                                 <li className="nav-item">
-                            <NavLink  activeClassName="active_link" className="nav-link d-inline-block  "  to="/service">Serivce</NavLink>
+                            <NavLink  activeClassName="active_link" className="nav-link d-inline-block mb-2 mb-md-0 mb-lg-0 "  to="/service">Serivce</NavLink>
                                 </li>
                                 <li className="nav-item">
-                            <NavLink  activeClassName="active_link" className="nav-link d-inline-block  "  to="/contact">Contact</NavLink>
+                            <NavLink  activeClassName="active_link" className="nav-link d-inline-block mb-2 mb-md-0 mb-lg-0 "  to="/contact">Contact</NavLink>
                                 </li>        
                         </ul>
                     </div>
