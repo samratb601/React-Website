@@ -3,8 +3,8 @@ import React from 'react'
 const AboutpageCard = (props) => {
     return (
         <>
-            <div className="col-lg-4 col-md-6 col-12 mx-auto mb-4 ">
-                <div className="card ms-2 py-2 shadow-sm"
+            <div className=" col-md-6 col-12 mx-auto mb-4 ">
+                <div className="card ms-2 py-2 shadow-sm "
                     style={{
                         height: '35vh',
                         backgroundColor:  props.bgcolor 

@@ -18,7 +18,7 @@ const About = () => {
         imgSrc={AboutSvg}
         />
         <div className="container-fluid pt-2"><div className="row">
-            <div className=" col-8 mx-auto">
+            <div className=" col-9 col-lg-8 mx-auto">
             
             
             <div className="row ">
